@@ -1,0 +1,115 @@
+command.back.desc=Teleport back to a previous location before teleporting
+command.back.teleport=&9[EC] You have been teleported back to where you were previously
+command.back.nolocation=&c[EC] No location to teleport back to
+
+command.break.desc=Breaks the block you are looking at
+command.break.noblock=&c[EC] No block to break
+
+command.extinguish.desc=Extinguishes a player
+command.fire.success=&9[EC] Extinguished $0
+
+command.feed.desc=Feeds you or another player
+command.feed.runother=&9[EC] You have fed $0
+command.feed.runby=&9[EC] You have been fed by $0
+command.feed.success=&9[EC] You have been fed
+command.feed.bulkcomplete=&9[EC] Successfully fed $0/$1 player(s)
+
+command.fire.desc=Sets a player on fire
+command.fire.success=&9[EC] Set $0 on fire for $1 seconds
+
+command.fly.desc=Enables or disables flight for you or another player
+command.fly.runother=&9[EC] You have toggled flight for $0
+command.fly.runby=&9[EC] Your flight has been toggled by $0
+command.fly.success=&9[EC] You have $0 flight
+command.fly.bulkcomplete=&9[EC] Successfully toggled flight for $0/$1 player(s)
+
+command.gamemode.desc=Change the gamemode of yourself or other players to $0
+command.gamemode.runother=&9[EC] Gamemode for player $0 has been changed to $1
+command.gamemode.runby=&9[EC] Your gamemode has been changed to $0 by $1
+command.gamemode.success=&9[EC] Your gamemode has been changed to $0
+command.gamemode.bulkcomplete=&9[EC] Successfully changed the gamemode of $0/$1 player(s)
+
+command.getitem.desc=Simplified item give command
+command.getitem.success=&9[EC] Given $0x [$1]
+command.getitem.noitem=&c[EC] Cannot find item $0
+
+command.god.desc=Enables or disables god mode for you or another player
+command.god.runother=&9[EC] You have toggled god mode for $0
+command.god.runby=&9[EC] Your god mode has been toggled by $0
+command.god.success=&9[EC] You have $0 god mode
+command.god.bulkcomplete=&9[EC] Successfully toggled god mode for $0/$1 player(s)
+
+command.heal.desc=Heals you or another player
+command.heal.runother=&9[EC] You have healed $0
+command.heal.runby=&9[EC] You have been healed by $0
+command.heal.success=&9[EC] You have been healed
+command.heal.bulkcomplete=&9[EC] Successfully healed $0/$1 player(s)
+
+command.home.desc=Teleports you directly to a saved home location
+command.home.list=&a[EC] Homes: $0
+command.home.none=&c[EC] No homes set!
+
+command.invsee.desc=Allows you to view another player's inventory
+
+command.ping.desc=Gets your ping
+command.ping.success=&9[EC] Ping: $0ms
+
+command.position.desc=Gets your or another player's position in chat
+command.position.exec=&9[EC] Position: [x:$0,y:$1,z:$2,world:$3]
+command.position.other=&9[EC] $0's Position: [x:$1,y:$2,z:$3,world:$4]
+
+command.powertool.desc=Assigns command(s) to the type of item in your hand
+command.powertool.noitem=&[EC] You are not holding an item in your main hand!
+
+command.randomtp.desc=Teleports you or another player to a random location
+command.randomtp.runother=&9[EC] You have teleported $0 to $1
+command.randomtp.runby=&9[EC] You have been teleported to a random location by $0
+command.randomtp.success=&9[EC] You have been teleported to $0
+command.randomtp.nosafe=&c[EC] Could not find a safe location to teleport to
+command.randomtp.nosafefor=&c[EC] Could not find a safe location to teleport $0 to
+command.randomtp.bulkcomplete=&9[EC] Successfully teleported $0/$1 player(s)
+
+command.removehome.desc=Removes an existing home
+command.removehome.success=&9[EC] Removed home '$0' successfully
+command.removehome.noexist=&c[EC] Could not remove home '$0'
+
+command.runas.desc=Runs a command or outputs a chat message as another player
+command.runas.success=&9[EC] Executed command as player $0
+
+command.sethome.desc=Sets or overwrites a home teleport location
+command.sethome.success=&9[EC] Set home '$0' successfully
+
+command.spawn.desc=Teleports you to your respawn location
+command.spawn.success=&9[EC] Teleported you to your spawn point
+command.spawn.notfound=&c[EC] Your spawn point is unset
+
+command.sun.desc=Sets the weather in the world to sun
+command.sun.success=&9[EC] Set the weather to sun
+
+command.thunder.desc=Sets the weather in the world to thunder
+command.thunder.success=&9[EC] Set the weather to thunder
+
+command.teleport.noself=&c[EC] You can't teleport to yourself
+command.teleport.to=&9[EC] You have been teleported to $0
+command.teleport.default=&9[EC] Teleporting...
+command.teleport.tooffline=&9[EC] You have been teleported to $0's location before logging out
+command.teleport.erroffline=&c[EC] Cannot find the offline location of $0
+command.teleport.nooffline=&c[EC] No offline location for $0 yet
+
+command.teleportto.desc=Teleports you to a online or offline player
+
+command.vanish.desc=Makes you invisible to other players in the world
+command.vanish.hiding=&9[EC] You are now invisible
+command.vanish.showing=&9[EC] You are now visible
+
+command.workbench.desc=Opens a workbench
+
+command.worldspawn.desc=Teleports you to the world spawn location
+command.worldspawn.success=&9[EC] Teleported you to the world spawn
+
+command.default.noperm=&cYou do not have permission to use this command
+command.default.exclusive=&c[EC] Only $0 can execute this command
+command.default.incooldown=&c[EC] This command is still in cooldown
+command.default.playernotfound=&c[EC] Could not find player $0
+
+sql.err=&c[EC] An SQL error has occured

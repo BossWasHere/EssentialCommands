@@ -1,0 +1,6 @@
+main: com.backwardsnode.essentialcommands.Plugin
+name: EssentialCommands
+version: ${plugin.version}
+description: Essential Commands for every Minecraft Server.
+author: IballisticBoss
+api-version: 1.13

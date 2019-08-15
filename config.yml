@@ -1,0 +1,10 @@
+#All appropriate commands can be modified here
+commands:
+    randomtp:
+        #Maximum distance to travel in square bounding box
+        distance: 100
+        #Time between command execution in game ticks
+        cooldown: 1200
+    back:
+        #Time between command execution in game ticks
+        cooldown: 200
